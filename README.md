@@ -26,6 +26,7 @@ Este código utiliza fetch para hacer una solicitud GET al endpoint especificado
 Es importante destacar que la variable de entorno debe tener el prefijo REACT_APP_ para que React la reconozca como una variable de entorno válida. Además, esta variable de entorno solo se puede acceder en el lado del cliente (en el navegador), no en el servidor, ya que es una variable de entorno específica de React.
 
 
+COMO CONFIGURAR EL .ENV
 
-
-
+REACT_APP_BACK=http://localhost:3001
+REACT_APP_ENDPOINT=http://localhost:3001/ordenes/orden
